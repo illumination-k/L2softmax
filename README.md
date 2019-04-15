@@ -1,6 +1,10 @@
 # L2softmax
 for intern
 
+## ファイルの説明
+preprocess.ipynb : jsonファイルでデータ分割を定義して、画像の前処理を行う
+intern2019_finetune.ipynb : model作成から学習、テストまで行う
+
 ## L2-softmaxを用いた異常検知
 
 オックスフォード大学の提供する犬猫の[データセット](http://www.robots.ox.ac.uk/~vgg/data/pets/)を表1.のように分割し、猫を正常値、犬を異常値とみなし、テストデータで存在しない犬種を未知の異常とみなしてrecall>0.999になるように異常値の検出を行った。
