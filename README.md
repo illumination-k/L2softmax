@@ -2,7 +2,7 @@
 for intern
 
 ## ファイルの説明
-preprocess.ipynb : jsonファイルでデータ分割を定義して、画像の前処理を行う
+preprocess.ipynb : jsonファイルでデータ分割を定義して、画像の前処理を行う  
 intern2019_finetune.ipynb : model作成から学習、テストまで行う
 
 ## L2-softmaxを用いた異常検知
